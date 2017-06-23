@@ -1,0 +1,41 @@
+#include<iostream.h>
+#include<conio.h>
+#include<math.h>
+int main()
+
+   double int b[10],i,j,k,temp,e;
+   double int sum=0;
+   clrscr();
+   scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+  scanf("%d",&b[i]);
+}
+for(i=0;i<n;i++)
+{
+ for(j=i+1;j<n;j++)
+ {
+  if(b[j]>b[i])
+ {
+  temp=b[i];
+  b[i]=b[j];
+  b[j]=temp;
+ }
+ }
+}
+for(i=0;i<n-1;i++)
+{
+  temp=b[i+1];
+  e=0;
+  while(temp!=0)
+  {
+    temp=temp/20;
+    e++;
+  }
+  sum=(sum*pow(12,c))+a[i+1];
+}
+printf("\n%ld",sum);
+
+getch();
+}
+}
